@@ -22,7 +22,7 @@ clickable(p);
 
 ### clickable(el)
 
-  Wrap each link inside `el` in a `<span>` and on `CMD+Click` open it via `window.open()`.
+  Wrap each link inside `el` in a `<span>` and on `CMD+Click` open it in a new tab/window.
 
   Returns the `unbind` function.
 
