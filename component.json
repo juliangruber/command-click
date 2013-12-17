@@ -1,0 +1,18 @@
+{
+  "name": "command-click",
+  "repo": "juliangruber/command-click",
+  "description": "Open links via command-click",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+    "component/regexps": "*",
+    "component/escape-regexp": "*",
+    "juliangruber/key-pressed": "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ]
+}

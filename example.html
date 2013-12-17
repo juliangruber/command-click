@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>command-click</title>
+</head>
+<body>
+  <p>Here's a link: http://google.com/ and here another one: http://segment.io/ and the same one again: http://segment.io/.</p>
+  <script src="build/build.js"></script>
+  <script>
+    var clickable = require('command-click');
+    clickable(document.querySelector('p'));
+  </script>
+</body>
+</html>
