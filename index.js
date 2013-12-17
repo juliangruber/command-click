@@ -33,6 +33,7 @@ function clickable(el) {
   });
   
   return function unbind() {
+    pressed.unbind();
     removeEventListener('keydown', keydown);
     removeEventListener('keyup', keyup);
   };
